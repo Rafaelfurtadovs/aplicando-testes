@@ -2,7 +2,7 @@
 
 Repositório criado para aplicar os exemplos do tutorial [Testes de Software com .NET 5: exemplos de utilização](https://renatogroffe.medium.com/testes-de-software-com-net-5-exemplos-de-utiliza%C3%A7%C3%A3o-9b5514119ba2), organizando os três tipos de testes apresentados: testes de unidade, Mock Objects e SpecFlow/BDD.
 
-> Observação: testo foi aprimorado com IA
+> Observação: Utilizei IA, para formatar e melhorar a coesão dos textos escritos.
 
 ## Testes de Unidade
 
