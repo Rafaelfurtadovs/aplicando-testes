@@ -2,7 +2,7 @@
 
 Repositório criado para aplicar os exemplos do tutorial [Testes de Software com .NET 5: exemplos de utilização](https://renatogroffe.medium.com/testes-de-software-com-net-5-exemplos-de-utiliza%C3%A7%C3%A3o-9b5514119ba2), organizando os três tipos de testes apresentados: testes de unidade, Mock Objects e SpecFlow/BDD.
 
-> Observação: o projeto foi executado localmente com o SDK .NET 10 instalado na máquina, mantendo a estrutura e as bibliotecas do tutorial onde aplicável.
+> Observação: testo foi aprimorado com IA
 
 ## Testes de Unidade
 
@@ -33,11 +33,3 @@ Cenário 1: dado um valor inicial de `1000`, taxa mensal de `1%` e período de `
 Cenário 2: dado um valor inicial de `1500`, taxa mensal de `2%` e período de `6` meses, o montante final deve ser `1689.24`.
 
 ![Execução dos testes com SpecFlow](docs/images/testes-specflow.png)
-
-## Barema
-
-(De 0 a 3) - Implementação dos 3 tipos de testes apresentados no artigo (1 ponto para cada tipo de teste implementado)
-
-(De 0 a 2) - Explicação clara e objetiva sobre a aplicação dos testes
-
-(De 0 a 2) - Organização do arquivo readme, com imagens dos testes e coerência dos textos.
