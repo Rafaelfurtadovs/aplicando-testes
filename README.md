@@ -12,7 +12,7 @@ Cenário 1: ao informar `32°F`, o conversor deve retornar `0°C`, que represent
 
 Cenário 2: ao informar `212°F`, o conversor deve retornar `100°C`, que representa o ponto de ebulição da água.
 
-![Execução dos testes de unidade](docs/images/testes-unidade.svg)
+![Execução dos testes de unidade](docs/images/testes-unidade.png)
 
 ## Mock Objects
 
@@ -22,7 +22,7 @@ Cenário 1: quando o CPF consultado retorna score `720` e o valor solicitado est
 
 Cenário 2: quando o CPF consultado retorna score `420`, a análise deve reprovar o crédito por score insuficiente.
 
-![Execução dos testes com Mock Objects](docs/images/testes-mock.svg)
+![Execução dos testes com Mock Objects](docs/images/testes-mock.png)
 
 ## SpecFlow/BDD
 
@@ -32,7 +32,7 @@ Cenário 1: dado um valor inicial de `1000`, taxa mensal de `1%` e período de `
 
 Cenário 2: dado um valor inicial de `1500`, taxa mensal de `2%` e período de `6` meses, o montante final deve ser `1689.24`.
 
-![Execução dos testes com SpecFlow](docs/images/testes-specflow.svg)
+![Execução dos testes com SpecFlow](docs/images/testes-specflow.png)
 
 ## Barema
 
