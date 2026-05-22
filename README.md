@@ -14,6 +14,16 @@ Cenário 2: ao informar `212°F`, o conversor deve retornar `100°C`, que repres
 
 ![Execução dos testes de unidade](docs/images/testes-unidade.svg)
 
+## Mock Objects
+
+Mock Objects simulam o comportamento de dependências externas para testar apenas a regra de negócio que está sob análise. Neste projeto, `AnaliseCredito` depende de `IServicoConsultaCredito`; os testes usam Moq para controlar o score retornado pela consulta e FluentAssertions para validar o resultado com uma escrita mais expressiva.
+
+Cenário 1: quando o CPF consultado retorna score `720` e o valor solicitado está dentro do limite automático, a análise deve aprovar o crédito.
+
+Cenário 2: quando o CPF consultado retorna score `420`, a análise deve reprovar o crédito por score insuficiente.
+
+![Execução dos testes com Mock Objects](docs/images/testes-mock.svg)
+
 ## Barema
 
 (De 0 a 3) - Implementação dos 3 tipos de testes apresentados no artigo (1 ponto para cada tipo de teste implementado)
