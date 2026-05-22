@@ -24,6 +24,16 @@ Cenário 2: quando o CPF consultado retorna score `420`, a análise deve reprova
 
 ![Execução dos testes com Mock Objects](docs/images/testes-mock.svg)
 
+## SpecFlow/BDD
+
+SpecFlow permite escrever cenários em Gherkin, aproximando o teste da linguagem usada para descrever uma funcionalidade. Neste projeto, a funcionalidade testada é o cálculo de juros compostos. O arquivo `.feature` descreve os cenários e a classe de steps mapeia cada frase para chamadas C# que executam a regra.
+
+Cenário 1: dado um valor inicial de `1000`, taxa mensal de `1%` e período de `12` meses, o montante final deve ser `1126.83`.
+
+Cenário 2: dado um valor inicial de `1500`, taxa mensal de `2%` e período de `6` meses, o montante final deve ser `1689.24`.
+
+![Execução dos testes com SpecFlow](docs/images/testes-specflow.svg)
+
 ## Barema
 
 (De 0 a 3) - Implementação dos 3 tipos de testes apresentados no artigo (1 ponto para cada tipo de teste implementado)

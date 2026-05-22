@@ -1,10 +1,12 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/ConsultaCredito/ConsultaCredito.csproj" />
+    <Project Path="src/JurosCompostos/JurosCompostos.csproj" />
     <Project Path="src/Temperatura/Temperatura.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/ConsultaCredito.MockTests/ConsultaCredito.MockTests.csproj" />
+    <Project Path="tests/JurosCompostos.SpecFlowTests/JurosCompostos.SpecFlowTests.csproj" />
     <Project Path="tests/Temperatura.UnitTests/Temperatura.UnitTests.csproj" />
   </Folder>
 </Solution>
